@@ -5,16 +5,19 @@ import './App.css';
 
 function App() {
   
-  // return (
+  return (
     
-    // <div>
-    //   <center> 
-    //     <h1> you
-    //       </h1> 
-    //       <img src={logo} className="App-logo" alt="logo" />
-    //   </center>
-    
-    // </div>
+    <div>
+      <center> 
+        <h1> 
+          เขียนบทความ
+          </h1> 
+          <img src={logo} className="App-logo" alt="logo" />
+      </center>
+      <Post></Post>
+    </div>
+
+
     
     // <div className="App">
     //   <Post>
@@ -36,7 +39,7 @@ function App() {
     //   </header>
     // </div>
     
-  // );
+  );
 }
 
 
